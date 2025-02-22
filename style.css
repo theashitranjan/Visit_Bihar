@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2EFE7;
+    color: #222;
+    line-height: 1.6;
+    transition: all .3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Nav Bar */
+nav {
+    background-image: url('https://media.istockphoto.com/id/901457976/vector/indian-folk-painting-ornamental-madhubani-painting-of-a-fish.jpg?s=612x612&w=0&k=20&c=LDunh_6rQQAmbuuY-DZCzVDgdViFHPXPlvCao-S_tK8=');
+    text-align: center;
+    padding: 14px;
+    margin: 0 0 10px 0 ;
+    border-radius: 10px;
+}
+nav a,span {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: white;
+    color: #b22929;
+    border-radius: 10px;
+}
+.sub-nav {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: #ccc;
+    padding: 0;
+}
+.sub-nav ul {
+    background-color: #c1a58e;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    width: inherit;
+
+}
+nav a:hover , nav span:hover {
+    background: #b22929;
+    color: white;
+    border-radius: 10px;
+    .sub-nav {
+        
+    }
+}
+
+/* Hero Secton */
+header {
+    position: relative;
+    height: 600px;
+    background-image: url('https://tourism.bihar.gov.in/content/dam/bihar-tourism/images/category_a/nalanda/jal_mandir/jal_mandir_a7306873_edit.jpg/jcr:content/renditions/cq5dam.web.1280.765.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2EFE7;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+    padding: 20px;
+}
+header h1 {
+    /* Descendant combinator */
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Ubuntu", sans-serif;
+}
+/* main */
+main {
+    padding: 20px;
+}
+/* sections */
+section {
+    margin-bottom: 40px;
+}
+.section-title {
+    color: #b22929;
+    text-align: center;
+    border-bottom: 2px solid #b22929;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Tables */
+
+table {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-collapse: collapse;
+}
+table th {
+    background-color: #EB5B00;
+}
+table th, table td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid white;
+}
+table tr:nth-child(odd) {
+    background-color: #edd5c6;
+  }
+
+table tr:hover {
+    background-color: #c1a58e;
+    cursor: pointer;
+}
+
+/* cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-content {
+    text-align: center;
+    padding: 15px;
+}
+.card img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+.card h3 {
+    color: #b22929;
+    font-size: 18px;
+}
+.card p {
+    text-align: justify;
+}
+
+/* footer */
+
+footer p {
+    background-color: #b22929;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+footer p a {
+    text-decoration: none;
+    color: #edd5c6;
+}
