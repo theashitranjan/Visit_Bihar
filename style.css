@@ -151,6 +151,12 @@ table tr:hover {
     text-align: justify;
 }
 
+/* Lists */
+#lists ul{
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+
+}
 /* footer */
 
 footer p {
