@@ -151,22 +151,7 @@ table tr:hover {
     text-align: justify;
 }
 
-/* Styling the Section */
-#lists {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-/* Styling the Section Title */
-.section-title {
-    font-size: 28px;
-    color: #007bff;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
 
 /* Styling Main List */
 #lists ul {
@@ -186,7 +171,7 @@ table tr:hover {
 
 /* Add an Icon Before Main List Items */
 #lists > ul > li::before {
-    content: "🌍"; /* You can replace this emoji with a FontAwesome icon */
+    content: "🌍"; 
     position: absolute;
     left: 0;
     font-size: 22px;
@@ -199,7 +184,7 @@ table tr:hover {
     padding-left: 25px;
 }
 
-/* Sub-list Items Styling */
+
 #lists ul ul li {
     font-size: 16px;
     color: #555;
@@ -210,7 +195,7 @@ table tr:hover {
     transition: background 0.3s ease;
 }
 
-/* Hover Effect on Sub-items */
+
 #lists ul ul li:hover {
     background: #d6d8db;
     transform: translateX(5px);
