@@ -85,15 +85,28 @@ section {
     margin-bottom: 40px;
 }
 .section-title {
+    position: relative;
     color: #b22929;
     text-align: center;
-    border-bottom: 2px solid #b22929;
-    padding: 20px 0;
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
     font-family: "Ubuntu", sans-serif;
+    padding-bottom: 10px; 
 }
+
+/* Underline Effect */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50%; 
+    max-width: 150px; 
+    height: 3px; 
+    background-color: #b22929;
+    margin: 5px auto 0; 
+    border-radius: 2px;
+}
+
 
 /* Tables */
 
